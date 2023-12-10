@@ -9,20 +9,16 @@
 /* Begin PBXBuildFile section */
 		6FD179D42B25797C00275834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD179D32B25797C00275834 /* AppDelegate.swift */; };
 		6FD179D62B25797C00275834 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD179D52B25797C00275834 /* SceneDelegate.swift */; };
-		6FD179D82B25797C00275834 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD179D72B25797C00275834 /* ViewController.swift */; };
-		6FD179DB2B25797C00275834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD179D92B25797C00275834 /* Main.storyboard */; };
+		6FD179D82B25797C00275834 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD179D72B25797C00275834 /* MainTabBarViewController.swift */; };
 		6FD179DD2B25797E00275834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD179DC2B25797E00275834 /* Assets.xcassets */; };
-		6FD179E02B25797E00275834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD179DE2B25797E00275834 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6FD179D02B25797C00275834 /* Nomik_Netflix_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nomik_Netflix_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD179D32B25797C00275834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FD179D52B25797C00275834 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6FD179D72B25797C00275834 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6FD179DA2B25797C00275834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FD179D72B25797C00275834 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		6FD179DC2B25797E00275834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6FD179DF2B25797E00275834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FD179E12B25797E00275834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,10 +54,8 @@
 			children = (
 				6FD179D32B25797C00275834 /* AppDelegate.swift */,
 				6FD179D52B25797C00275834 /* SceneDelegate.swift */,
-				6FD179D72B25797C00275834 /* ViewController.swift */,
-				6FD179D92B25797C00275834 /* Main.storyboard */,
+				6FD179D72B25797C00275834 /* MainTabBarViewController.swift */,
 				6FD179DC2B25797E00275834 /* Assets.xcassets */,
-				6FD179DE2B25797E00275834 /* LaunchScreen.storyboard */,
 				6FD179E12B25797E00275834 /* Info.plist */,
 			);
 			path = Nomik_Netflix_Clone;
@@ -125,9 +119,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FD179E02B25797E00275834 /* LaunchScreen.storyboard in Resources */,
 				6FD179DD2B25797E00275834 /* Assets.xcassets in Resources */,
-				6FD179DB2B25797C00275834 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +130,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FD179D82B25797C00275834 /* ViewController.swift in Sources */,
+				6FD179D82B25797C00275834 /* MainTabBarViewController.swift in Sources */,
 				6FD179D42B25797C00275834 /* AppDelegate.swift in Sources */,
 				6FD179D62B25797C00275834 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6FD179D92B25797C00275834 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6FD179DA2B25797C00275834 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6FD179DE2B25797E00275834 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6FD179DF2B25797E00275834 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6FD179E22B25797E00275834 /* Debug */ = {
@@ -297,7 +270,6 @@
 				INFOPLIST_FILE = Nomik_Netflix_Clone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +297,6 @@
 				INFOPLIST_FILE = Nomik_Netflix_Clone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
